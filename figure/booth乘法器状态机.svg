@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 booth乘法器状态机.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.23135in" height="6.01703in"
+		viewBox="0 0 520.657 433.226" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#c7c8c8;stroke-width:0.25}
+		.st2 {fill:#ffffff;stroke:#fec000;stroke-width:2.25}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.16666em}
+		.st4 {font-family:黑体;font-size:1em}
+		.st5 {fill:#ffffff;stroke:#305497;stroke-width:2.25}
+		.st6 {font-size:1em}
+		.st7 {marker-end:url(#mrkr4-27);stroke:#ed7d31;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st8 {fill:#ed7d31;fill-opacity:1;stroke:#ed7d31;stroke-opacity:1;stroke-width:0.47169811320755}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st10 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st11 {marker-start:url(#mrkr13-35);stroke:#ed7d31;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st12 {marker-start:url(#mrkr13-43);stroke:#ed7d31;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-27" class="st8" v:arrowType="4" v:arrowSize="2" v:setback="4.24" refX="-4.24" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.12,-2.12) "/>
+		</marker>
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-35" class="st8" v:arrowType="13" v:arrowSize="2" v:setback="6.2" refX="6.2" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(2.12) "/>
+		</marker>
+		<marker id="mrkr13-43" class="st8" v:arrowType="13" v:arrowSize="2" v:setback="0" refX="0" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(2.12) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape14-1" v:mID="14" v:groupContext="shape" transform="translate(0.25,-0.25)">
+			<title>矩形</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="0.500004" width="520.157" height="432.726" class="st1"/>
+		</g>
+		<g id="group12-3" transform="translate(42.7697,-32.7244)" v:mID="12" v:groupContext="group">
+			<title>工作表.12</title>
+			<g id="shape10-4" v:mID="10" v:groupContext="shape" transform="translate(194.173,5.68434E-14)">
+				<title>圆角矩形.10</title>
+				<desc>32次循环</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.32086613149207):1"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.32086613149207):1"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.32086613149207):1"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.32086613149207):1"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+				<v:textRect cx="115.512" cy="247.274" width="231.03" height="371.905"/>
+				<path d="M23.1 433.23 L207.92 433.23 A23.102 23.102 -180 0 0 231.02 410.12 L231.02 84.42 A23.102 23.102 -180 0 0
+							 207.92 61.32 L23.1 61.32 A23.102 23.102 -180 0 0 -0 84.42 L0 410.12 A23.102 23.102 -180 0 0 23.1 433.23
+							 Z" class="st2"/>
+				<text x="87.42" y="424.57" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>32<tspan
+							class="st4">次循环</tspan></text>			</g>
+			<g id="shape1-8" v:mID="1" v:groupContext="shape" transform="translate(3.19744E-14,-244.346)">
+				<title>圆角矩形</title>
+				<desc>IDLE iter_cnt = 0</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="390.707" width="113.39" height="85.0394"/>
+				<path d="M11.34 433.23 L102.05 433.23 A11.3384 11.3384 -180 0 0 113.39 421.89 L113.39 359.53 A11.3384 11.3384 -180
+							 0 0 102.05 348.19 L11.34 348.19 A11.3384 11.3384 -180 0 0 0 359.53 L0 421.89 A11.3384 11.3384 -180 0
+							 0 11.34 433.23 Z" class="st5"/>
+				<text x="44.26" y="386.51" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>IDLE<v:newlineChar/><tspan
+							x="24.15" dy="1.2em" class="st6">iter_cnt = 0</tspan></text>			</g>
+			<g id="shape2-12" v:mID="2" v:groupContext="shape" transform="translate(240.945,-244.346)">
+				<title>圆角矩形.2</title>
+				<desc>ADD</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="390.707" width="113.39" height="85.0394"/>
+				<path d="M11.34 433.23 L102.05 433.23 A11.3384 11.3384 -180 0 0 113.39 421.89 L113.39 359.53 A11.3384 11.3384 -180
+							 0 0 102.05 348.19 L11.34 348.19 A11.3384 11.3384 -180 0 0 0 359.53 L0 421.89 A11.3384 11.3384 -180 0
+							 0 11.34 433.23 Z" class="st5"/>
+				<text x="44.03" y="394.91" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ADD</text>			</g>
+			<g id="shape3-15" v:mID="3" v:groupContext="shape" transform="translate(240.945,-45.9213)">
+				<title>圆角矩形.3</title>
+				<desc>SHIFT</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="390.707" width="113.39" height="85.0394"/>
+				<path d="M11.34 433.23 L102.05 433.23 A11.3384 11.3384 -180 0 0 113.39 421.89 L113.39 359.53 A11.3384 11.3384 -180
+							 0 0 102.05 348.19 L11.34 348.19 A11.3384 11.3384 -180 0 0 0 359.53 L0 421.89 A11.3384 11.3384 -180 0
+							 0 11.34 433.23 Z" class="st5"/>
+				<text x="40.72" y="394.91" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SHIFT</text>			</g>
+			<g id="shape4-18" v:mID="4" v:groupContext="shape" transform="translate(3.19744E-14,-45.9213)">
+				<title>圆角矩形.4</title>
+				<desc>OUTPUT [product]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="390.707" width="113.39" height="85.0394"/>
+				<path d="M11.34 433.23 L102.05 433.23 A11.3384 11.3384 -180 0 0 113.39 421.89 L113.39 359.53 A11.3384 11.3384 -180
+							 0 0 102.05 348.19 L11.34 348.19 A11.3384 11.3384 -180 0 0 0 359.53 L0 421.89 A11.3384 11.3384 -180 0
+							 0 11.34 433.23 Z" class="st5"/>
+				<text x="32.64" y="386.51" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>OUTPUT<v:newlineChar/><tspan
+							x="29.93" dy="1.2em" class="st6">[product]</tspan></text>			</g>
+			<g id="shape5-22" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(113.386,-279.78)">
+				<title>动态连接线</title>
+				<desc>en == 1</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="411.967" width="50" height="20.0036"/>
+				<path d="M0 426.14 L118.02 426.14" class="st7"/>
+				<rect v:rectContext="textBkgnd" x="41.8028" y="405.967" width="29.7801" height="12.0001" class="st9"/>
+				<text x="41.8" y="414.97" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>en == 1</text>			</g>
+			<g id="shape6-30" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(237.179,-247.668)">
+				<title>动态连接线.6</title>
+				<desc>iter_cnt != 32</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="9.67105" cy="493.24" width="65.08" height="20.0036"/>
+				<path d="M-6.86 433.23 L-7.22 433.23 L-21.63 433.23 L-21.63 553.25 L7.09 553.25" class="st11"/>
+				<rect v:rectContext="textBkgnd" x="-17.7362" y="487.241" width="54.8146" height="12.0001" class="st9"/>
+				<text x="-17.74" y="496.24" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>iter_cnt != 32</text>			</g>
+			<g id="shape7-38" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(343.923,-127.64)">
+				<title>动态连接线.7</title>
+				<path d="M7.09 433.23 L21.04 433.23 L21.04 313.2 L7.09 313.2" class="st12"/>
+			</g>
+			<g id="shape8-44" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(240.945,-81.3543)">
+				<title>动态连接线.8</title>
+				<desc>iter_cnt == 32</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-85.0394" cy="440.313" width="66.81" height="20.0036"/>
+				<path d="M0 426.14 L-118.02 426.14" class="st7"/>
+				<rect v:rectContext="textBkgnd" x="-113.308" y="434.313" width="56.5381" height="12.0001" class="st9"/>
+				<text x="-113.31" y="443.31" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>iter_cnt == 32</text>			</g>
+			<g id="shape9-51" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(49.6063,-130.961)">
+				<title>动态连接线.9</title>
+				<path d="M7.09 433.23 L7.09 329.38" class="st7"/>
+			</g>
+		</g>
+	</g>
+</svg>

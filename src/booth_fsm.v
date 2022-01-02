@@ -50,11 +50,11 @@ always @(*) begin
 end
 
 // negative value of multiplier.
-assign multiplier_neg = -{multiplier[DATAWIDTH-1],multiplier}; 
-assign data_in1 = p_reg;
+assign multiplier_neg = -{multiplier[DATAWIDTH-1],multiplier};//取补码，相当于每一位取反，然后加1
+assign data_in1 =     p_reg;
 assign data_in2 =    (p_reg[1:0]==2'b01)?a_reg:// + multiplier
                      (p_reg[1:0]==2'b10)?s_reg:// - multiplier
-                                    0;       // nop
+                                      0;       // nop
 
 // algorithm implemenation details.
 always @(posedge clk or negedge rstn) begin
