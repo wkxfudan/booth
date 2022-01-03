@@ -26,13 +26,13 @@ assign m2_in = multiplicand[`TEST_WIDTH-1:0];
 
 booth_fsm #(.DATAWIDTH(`TEST_WIDTH)) booth 
 (
-  .clk(clk),
-  .rstn(rstn),
-  .en(en),
-  .multiplier(multiplier),                            
-  .multiplicand(multiplicand),
-  .done  (done),
-  .product(product)
+    .clk(clk),
+    .rstn(rstn),
+    .en(en),
+    .multiplier(multiplier),                            
+    .multiplicand(multiplicand),
+    .done(done),
+    .product(product)
  );
 
 always #1 clk = ~clk;
@@ -40,18 +40,18 @@ always #1 clk = ~clk;
 integer num_good;
 integer i,j;
 initial begin
-  clk = 1;
-  en = 0;
-  rstn = 1;
-  finish = 0;
-  #2 rstn = 0; #2 rstn = 1;
+    clk = 1;
+    en = 0;
+    rstn = 1;
+    finish = 0;
+    #2 rstn = 0; #2 rstn = 1;
   
-  num_good = 0;
-  multiplier=0;
-  multiplicand=0;
-  #8;
+    num_good = 0;
+    multiplier=0;
+    multiplicand=0;
+    #9;
 
-  for(i = 0; i < 32'hFFFF;i=i+1) begin
+    for(i = 0; i < 32'hFFFF;i=i+1) begin
           
       
         en = 1;
@@ -83,6 +83,6 @@ initial begin
     // $dumpvars();
     // if(finish === 1)
     //     $finish;
- end
+end
 endmodule
 

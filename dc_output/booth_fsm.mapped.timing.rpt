@@ -1,0 +1,225 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : booth_fsm
+Version: K-2015.06
+Date   : Mon Jan  3 14:29:51 2022
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: multiplier[0]
+              (input port clocked by clock_main)
+  Endpoint: s_reg_reg_64_
+            (rising edge-triggered flip-flop clocked by clock_main)
+  Path Group: REGIN
+  Path Type: max
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock clock_main (rise edge)                                      0.00       0.00
+  clock network delay (ideal)                                       0.05       0.05
+  input external delay                                              1.00       1.05 f
+  multiplier[0] (in)                                      0.00      0.00       1.05 f
+  multiplier[0] (net)                           2                   0.00       1.05 f
+  sub_x_2/B[0] (booth_fsm_DW01_sub_0)                               0.00       1.05 f
+  sub_x_2/B[0] (net)                                                0.00       1.05 f
+  sub_x_2/U159/Y (INVXL)                                  0.07      0.05       1.10 r
+  sub_x_2/n195 (net)                            2                   0.00       1.10 r
+  sub_x_2/U128/Y (NAND2XL)                                0.06      0.05       1.15 f
+  sub_x_2/n197 (net)                            2                   0.00       1.15 f
+  sub_x_2/U130/Y (NOR2XL)                                 0.14      0.10       1.26 r
+  sub_x_2/n204 (net)                            2                   0.00       1.26 r
+  sub_x_2/U136/Y (NAND2XL)                                0.07      0.06       1.31 f
+  sub_x_2/n223 (net)                            2                   0.00       1.31 f
+  sub_x_2/U155/Y (NOR2XL)                                 0.14      0.11       1.42 r
+  sub_x_2/n233 (net)                            2                   0.00       1.42 r
+  sub_x_2/U180/Y (NAND2XL)                                0.10      0.08       1.49 f
+  sub_x_2/n264 (net)                            2                   0.00       1.49 f
+  sub_x_2/U182/Y (NOR2XL)                                 0.18      0.13       1.62 r
+  sub_x_2/n243 (net)                            2                   0.00       1.62 r
+  sub_x_2/U120/Y (AND2XL)                                 0.10      0.14       1.76 r
+  sub_x_2/n265 (net)                            1                   0.00       1.76 r
+  sub_x_2/U223/CO (ADDHXL)                                0.10      0.12       1.89 r
+  sub_x_2/n267 (net)                            1                   0.00       1.89 r
+  sub_x_2/U224/CO (ADDHXL)                                0.10      0.12       2.01 r
+  sub_x_2/n269 (net)                            1                   0.00       2.01 r
+  sub_x_2/U225/CO (ADDHXL)                                0.10      0.12       2.14 r
+  sub_x_2/n271 (net)                            1                   0.00       2.14 r
+  sub_x_2/U226/CO (ADDHXL)                                0.10      0.12       2.26 r
+  sub_x_2/n273 (net)                            1                   0.00       2.26 r
+  sub_x_2/U227/CO (ADDHXL)                                0.10      0.12       2.39 r
+  sub_x_2/n275 (net)                            1                   0.00       2.39 r
+  sub_x_2/U228/CO (ADDHXL)                                0.13      0.15       2.53 r
+  sub_x_2/n244 (net)                            2                   0.00       2.53 r
+  sub_x_2/U221/Y (XNOR2XL)                                0.06      0.17       2.71 r
+  sub_x_2/DIFF[31] (net)                        1                   0.00       2.71 r
+  sub_x_2/DIFF[31] (booth_fsm_DW01_sub_0)                           0.00       2.71 r
+  multiplier_neg[31] (net)                                          0.00       2.71 r
+  U1253/Y (MXI2XL)                                        0.24      0.07       2.77 f
+  n711 (net)                                    1                   0.00       2.77 f
+  s_reg_reg_64_/D (DFFSX1)                                0.24      0.00       2.77 f
+  data arrival time                                                            2.77
+
+  clock clock_main (rise edge)                                      5.00       5.00
+  clock network delay (ideal)                                       0.05       5.05
+  clock uncertainty                                                -1.50       3.55
+  s_reg_reg_64_/CK (DFFSX1)                                         0.00       3.55 r
+  library setup time                                               -0.18       3.37
+  data required time                                                           3.37
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           3.37
+  data arrival time                                                           -2.77
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                  0.59
+
+
+  Startpoint: product_reg_1_
+              (rising edge-triggered flip-flop clocked by clock_main)
+  Endpoint: product[1] (output port clocked by clock_main)
+  Path Group: REGOUT
+  Path Type: max
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clock_main (rise edge)                       0.00       0.00
+  clock network delay (ideal)                        0.05       0.05
+  product_reg_1_/CK (DFFSX1)               0.05      0.00       0.05 r    i 
+  product_reg_1_/QN (DFFSX1)               0.05      0.30       0.35 f
+  product[1] (net)               2                   0.00       0.35 f
+  product[1] (out)                         0.05      0.00       0.35 f
+  data arrival time                                             0.35
+
+  clock clock_main (rise edge)                       5.00       5.00
+  clock network delay (ideal)                        0.05       5.05
+  clock uncertainty                                 -1.50       3.55
+  output external delay                             -1.00       2.55
+  data required time                                            2.55
+  ------------------------------------------------------------------------------------------
+  data required time                                            2.55
+  data arrival time                                            -0.35
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   2.20
+
+
+  Startpoint: p_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by clock_main)
+  Endpoint: sum_reg_reg_65_
+            (rising edge-triggered flip-flop clocked by clock_main)
+  Path Group: clock_main
+  Path Type: max
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clock_main (rise edge)                       0.00       0.00
+  clock network delay (ideal)                        0.05       0.05
+  p_reg_reg_1_/CK (DFFSX1)                 0.05      0.00       0.05 r    i 
+  p_reg_reg_1_/Q (DFFSX1)                  0.18      0.42       0.47 r
+  n1125 (net)                    2                   0.00       0.47 r
+  U1272/Y (NOR2X4)                         0.10      0.07       0.55 f
+  n791 (net)                    16                   0.00       0.55 f
+  U1280/Y (NAND2XL)                        0.07      0.06       0.61 r
+  n736 (net)                     1                   0.00       0.61 r
+  U1281/Y (NAND2XL)                        0.07      0.06       0.67 f
+  n1011 (net)                    2                   0.00       0.67 f
+  U1282/Y (NAND2XL)                        0.16      0.11       0.78 r
+  n1010 (net)                    4                   0.00       0.78 r
+  U1283/Y (NAND2XL)                        0.06      0.05       0.82 f
+  n740 (net)                     1                   0.00       0.82 f
+  U805/Y (AOI2BB2XL)                       0.28      0.18       1.01 r
+  n939 (net)                     3                   0.00       1.01 r
+  U1287/Y (INVXL)                          0.07      0.04       1.05 f
+  n742 (net)                     1                   0.00       1.05 f
+  U1290/Y (OAI21XL)                        0.24      0.17       1.22 r
+  n935 (net)                     3                   0.00       1.22 r
+  U1294/Y (NAND2XL)                        0.07      0.05       1.27 f
+  n752 (net)                     1                   0.00       1.27 f
+  U806/Y (AOI21XL)                         0.22      0.15       1.42 r
+  n1053 (net)                    2                   0.00       1.42 r
+  U810/Y (AOI2BB2XL)                       0.24      0.17       1.59 r
+  n958 (net)                     2                   0.00       1.59 r
+  U718/Y (NAND2X1)                         0.09      0.06       1.65 f
+  n951 (net)                     2                   0.00       1.65 f
+  U717/Y (AOI22X1)                         0.24      0.15       1.80 r
+  n962 (net)                     3                   0.00       1.80 r
+  U753/Y (INVXL)                           0.07      0.04       1.85 f
+  n782 (net)                     1                   0.00       1.85 f
+  U1310/Y (OAI21X1)                        0.21      0.15       2.00 r
+  n930 (net)                     2                   0.00       2.00 r
+  U727/Y (NOR2X2)                          0.07      0.05       2.05 f
+  n929 (net)                     3                   0.00       2.05 f
+  U820/Y (AOI21X1)                         0.15      0.11       2.16 r
+  n917 (net)                     2                   0.00       2.16 r
+  U1257/Y (NOR2X1)                         0.09      0.06       2.22 f
+  n916 (net)                     3                   0.00       2.22 f
+  U748/Y (NOR2X1)                          0.13      0.10       2.32 r
+  n908 (net)                     2                   0.00       2.32 r
+  U1316/Y (OR4X2)                          0.05      0.10       2.42 r
+  n808 (net)                     1                   0.00       2.42 r
+  U824/Y (AOI21X1)                         0.11      0.07       2.49 f
+  n965 (net)                     3                   0.00       2.49 f
+  U843/Y (AOI31XL)                         0.15      0.11       2.60 r
+  n842 (net)                     1                   0.00       2.60 r
+  U842/Y (OAI22XL)                         0.13      0.10       2.69 f
+  n896 (net)                     3                   0.00       2.69 f
+  U902/Y (NOR4BXL)                         0.10      0.14       2.84 f
+  n849 (net)                     1                   0.00       2.84 f
+  U900/Y (AOI211XL)                        0.31      0.20       3.03 r
+  n865 (net)                     3                   0.00       3.03 r
+  U851/Y (NOR2XL)                          0.10      0.07       3.11 f
+  n870 (net)                     2                   0.00       3.11 f
+  U864/Y (NOR2XL)                          0.15      0.11       3.22 r
+  n878 (net)                     2                   0.00       3.22 r
+  U879/Y (INVXL)                           0.05      0.04       3.25 f
+  n881 (net)                     1                   0.00       3.25 f
+  U912/Y (NAND4XL)                         0.18      0.07       3.32 r
+  n885 (net)                     1                   0.00       3.32 r
+  U909/Y (NAND4XL)                         0.09      0.07       3.39 f
+  n647 (net)                     1                   0.00       3.39 f
+  sum_reg_reg_65_/D (DFFSX1)               0.09      0.00       3.39 f
+  data arrival time                                             3.39
+
+  clock clock_main (rise edge)                       5.00       5.00
+  clock network delay (ideal)                        0.05       5.05
+  clock uncertainty                                 -1.50       3.55
+  sum_reg_reg_65_/CK (DFFSX1)                        0.00       3.55 r
+  library setup time                                -0.16       3.39
+  data required time                                            3.39
+  ------------------------------------------------------------------------------------------
+  data required time                                            3.39
+  data arrival time                                            -3.39
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.00
+
+
+1

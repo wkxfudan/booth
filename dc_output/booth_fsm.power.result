@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+        -verbose
+Design : booth_fsm
+Version: K-2015.06
+Date   : Mon Jan  3 14:29:51 2022
+****************************************
+
+
+Library(s) Used:
+
+    typical (File: /home/IC/smic180/digital/sc/synopsys/typical.db)
+
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   3.7915 mW   (92%)
+  Net Switching Power  = 324.1418 uW    (8%)
+                         ---------
+Total Dynamic Power    =   4.1156 mW  (100%)
+
+Cell Leakage Power     = 101.9960 nW
+
+                 Internal         Switching           Leakage            Total                         Cell
+Power Group      Power            Power               Power              Power   (   %    )  Attrs  Count
+---------------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+register           3.5466        6.8441e-02        5.8482e+04            3.6151  (  87.84%)            295
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+combinational      0.2449            0.2557        4.3514e+04            0.5006  (  12.16%)            902
+---------------------------------------------------------------------------------------------------------
+Total              3.7915 mW         0.3241 mW     1.0200e+05 pW         4.1157 mW
+1
